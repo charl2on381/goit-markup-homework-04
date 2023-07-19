@@ -14,6 +14,7 @@
     --bottom-text-color: #434455;
     --team-background-color: #F4F4FD;
     --footer-text-color: #F4F4FD;
+    --lightslate-border-color: #8E8F99;
 }
 
 /* CSS RESET */
@@ -291,6 +292,23 @@ body {
 
 /* BENEFIT SECTION */
 
+.benefit-box {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 112px;
+    margin-bottom: 8px;
+
+    background: #F4F4FD;
+    border-radius: 4px;
+
+
+
+}
+
+
 
 
 .benefit-list {
@@ -300,7 +318,7 @@ body {
 
 .benefits-item {
     width: calc(100% - 20px / 4);
-} */
+} 
 
 .benefit-item-title{
     color: var(--top-text-color);
@@ -333,6 +351,8 @@ body {
     border: 1px solid var(--border-bottom-color);
     background: lightgray -72.845px -19px / 144.444% 112.667% no-repeat;
 }
+
+
 
 /* OUR TEAM SECTION */
 
@@ -374,6 +394,48 @@ body {
     text-align: center;
 }
 
+/* CLIENT SECTION */
+
+.client-section {
+    background-color: var(--primary-background-color);
+}
+
+.client-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    
+}
+
+.client-item {
+    padding: 16px 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: calc(100% - 24px / 6);
+  
+    border-radius: 4px;
+    border: 1px solid var(--lightslate-border-color);
+}
+
+.fosterpeters-logo {
+    display: flex;
+    padding: 9px 9px 6px 11px;
+    justify-content: center;
+    align-items: center;
+}
+
+.fosterpeters-text {
+
+    color: var(--lightslate, #8E8F99);
+    font-family: Roboto;
+    font-size: 6px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
 
 /* FOOTER */
 
@@ -554,5 +616,32 @@ body {
     border-top: 0;
 
 
+}
+
+.company {
+
+    position: absolute;
+    width: 208px;
+    height: 80px;
+    left: 540px;
+    top: 2360px;
+}
+
+.socialmedia-title {
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    letter-spacing: 0.02em;
+
+    /* WHITE */
+
+    color: #FFFFFF;
+}
+
+.company-socialmedia-link {
+    cursor: pointer;
 }
 
