@@ -295,7 +295,7 @@ body {
 
 /* BENEFIT SECTION */
 
-.benefit-box {
+.advantage-box {
 
     display: flex;
     justify-content: center;
@@ -311,8 +311,10 @@ body {
 
 }
 
-
-
+.benefit-box:hover,
+.benefit-box:focus {
+    background-color: var(--primary-icon-hover-color);
+}
 
 .benefit-list {
     display: flex;
