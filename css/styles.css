@@ -311,8 +311,8 @@ body {
 
 }
 
-.benefit-box:hover,
-.benefit-box:focus {
+.advantage-box:hover,
+.advantage-box:focus {
     background-color: var(--primary-icon-hover-color);
 }
 
