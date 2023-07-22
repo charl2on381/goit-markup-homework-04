@@ -455,9 +455,14 @@ body {
     padding: 16px 32px;
     display: flex;
     justify-content: center;
-    align-items: center
+    align-items: center;
 
-   
+    color: var(--lightslate-border-color);  
+}
+
+.client-icon {
+    fill: currentColor;
+
 }
 
 .client-item {
