@@ -450,21 +450,6 @@ body {
     
 }
 
-.client-link {
-
-    padding: 16px 32px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    color: var(--lightslate-border-color);  
-}
-
-.client-icon {
-    fill: currentColor;
-
-}
-
 .client-item {
     width: 168px;
     height: 88px;
@@ -472,7 +457,23 @@ body {
     border-radius: 4px;
     border: 1px solid var(--lightslate-border-color);
     
-    color: var(--primary-lightslate-color);
+    /* color: var(--primary-lightslate-color); */
+}
+
+.client-link {
+
+    padding: 16px 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: var(--lightslate-border-color);
+}
+
+.client-icon {
+
+    fill: currentColor;
+
 }
 
 .client-link:hover,
