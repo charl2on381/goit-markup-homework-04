@@ -467,6 +467,7 @@ body {
     justify-content: center;
     align-items: center;
 
+    border: 1px solid var(--lightslate-border-color);
     color: var(--lightslate-border-color);
   
 }
@@ -482,7 +483,7 @@ body {
 .client-link:hover,
 .client-link:focus {
     color: var(--primary-hover-color);
-    stroke: var(--primary-hover-color);
+    border: var(--primary-hover-color);
 }
 
 /* FOOTER */
