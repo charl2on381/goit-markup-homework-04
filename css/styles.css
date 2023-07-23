@@ -663,7 +663,7 @@ body {
 }
 
 
-.social-container{
+/* .social-container{
     position: absolute;
         width: 208px;
         height: 80px;
@@ -671,7 +671,21 @@ body {
         top: 3000px;
 
 
+} */
+
+.footer-container {
+    display: flex;
 }
+
+.footer-child {
+    flex: 1;
+}
+
+.footer-child:first-child {
+    margin-right: 0 auto;
+}
+
+
 .company-social {
 
         color: var(--primary-white-color);
