@@ -450,20 +450,6 @@ body {
     
 }
 
-
-
-.client-link {
-
-    padding: 16px 32px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    /* border: 1px solid var(--lightslate-border-color); */
-    color: var(--lightslate-border-color);
-  
-}
-
 .client-item {
     width: 168px;
     height: 88px;
@@ -474,14 +460,24 @@ body {
     color: var(--primary-lightslate-color);
 }
 
+.client-link {
+
+    padding: 16px 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid var(--lightslate-border-color);
+    color: var(--lightslate-border-color);
+  
+}
+
 
 .client-icon {
     fill: currentColor;
     /* stroke: currentColor; */
 
 }
-
-
 
 .client-link:hover,
 .client-link:focus {
