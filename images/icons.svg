@@ -192,7 +192,7 @@
 
 
 <!-- Svg Client Icon 6 -->
-<symol id="icon-clientlogo6" viewBox="0 0 105 56">
+<symbol id="icon-clientlogo6" viewBox="0 0 105 56">
 
 <path fill="#e5e5e5" style="fill: var(--color2, #e5e5e5)" d="M0 0h59.429v32h-59.429v-32z"></path>
 <path d="M-339.429-469.714h679.429c7.574 0 13.714 6.14 13.714 13.714v1341.714c0 7.574-6.14 13.714-13.714 13.714h-679.429c-7.574 0-13.714-6.14-13.714-13.714v-1341.714c0-7.574 6.14-13.714 13.714-13.714z"></path>
