@@ -470,7 +470,7 @@ body {
     justify-content: center;
     align-items: center;
 
-    border: 1px solid var(--lightslate-border-color);
+    /* border: 1px solid var(--lightslate-border-color); */
     color: var(--lightslate-border-color);
   
 }
