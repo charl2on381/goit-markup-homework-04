@@ -255,7 +255,19 @@ body {
 .hero-section {
     padding: 188px 0;
 
-    background: var(--hero-background-color);
+    background: url('../images/peopleoffice.jpg');
+        background-color: rgb(46, 47, 66, 0.7);
+    
+        background-blend-mode: darken;
+        /* You must set a specified height */
+        background-position: center;
+        /* Center the image */
+        background-repeat: no-repeat;
+        /* Do not repeat the image */
+        background-size: cover;
+        /* Resize the background image to cover the entire container */
+
+    /* background: var(--hero-background-color); */
 }
 
 .hero-title {
@@ -670,6 +682,9 @@ body {
 
 }
 
+.portfolio-item:hover {
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
 
 /* .social-container{
     position: absolute;
