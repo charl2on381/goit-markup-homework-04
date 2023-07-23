@@ -482,7 +482,7 @@ body {
 .client-link:hover,
 .client-link:focus {
     color: var(--primary-hover-color);
-    border-color: var(--primary-hover-color);
+    stroke: var(--primary-hover-color);
 }
 
 /* FOOTER */
