@@ -450,18 +450,6 @@ body {
     
 }
 
-.client-link {
-
-    padding: 16px 32px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    border: 1px solid var(--lightslate-border-color);
-    color: var(--lightslate-border-color);
-  
-}
-
 .client-item {
     width: 168px;
     height: 88px;
@@ -470,6 +458,18 @@ body {
     border: 1px solid var(--lightslate-border-color);
 
     color: var(--primary-lightslate-color);
+}
+
+.client-link {
+
+    padding: 16px 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* border: 1px solid var(--lightslate-border-color); */
+    color: var(--lightslate-border-color);
+  
 }
 
 .client-icon {
