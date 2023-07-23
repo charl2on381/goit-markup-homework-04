@@ -455,7 +455,7 @@ body {
     height: 88px;
 
     border-radius: 4px;
-    /* border: 1px solid var(--lightslate-border-color); */
+    border: 1px solid var(--lightslate-border-color);
 
     color: var(--primary-lightslate-color);
 }
@@ -468,7 +468,7 @@ body {
     justify-content: center;
     align-items: center;
 
-    border: 1px solid var(--lightslate-border-color);
+    /* border: 1px solid var(--lightslate-border-color); */
     color: var(--lightslate-border-color);
   
 }
