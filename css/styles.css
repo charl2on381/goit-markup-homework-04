@@ -474,7 +474,7 @@ body {
 
 .client-icon {
     fill: currentColor;
-    border: 1px solid var(--lightslate-border-color);
+    /* border: 1px solid var(--lightslate-border-color); */
 
 }
 
