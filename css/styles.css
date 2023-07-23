@@ -458,6 +458,7 @@ body {
     align-items: center;
 
     color: var(--lightslate-border-color);
+    stroke-color
   
 }
 
@@ -478,7 +479,8 @@ body {
 
 .client-link:hover,
 .client-link:focus {
-    background-color: var(--primary-icon-hover-color);
+    color: var(--primary-hover-color);
+    border-color: var(--primary-hover-color);
 }
 
 /* FOOTER */
