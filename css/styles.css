@@ -475,6 +475,7 @@ body {
 
 .client-icon {
     fill: currentColor;
+    stroke: currentColor;
    
 
 }
