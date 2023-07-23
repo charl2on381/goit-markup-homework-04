@@ -474,7 +474,7 @@ body {
 
 .client-icon {
     fill: currentColor;
-    stroke: currentColor;
+    /* stroke: currentColor; */
 
 }
 
@@ -484,7 +484,7 @@ body {
 .client-link:focus {
     color: var(--primary-hover-color);
     /* border: 1px solid var(--primary-hover-color); */
-    stroke: var(--primary-hover-color);
+    /* stroke: var(--primary-hover-color); */
 }
 
 /* FOOTER */
