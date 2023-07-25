@@ -734,6 +734,7 @@ a.link {
 .company-social-link {
     width: 40px;
     height: 40px;
+    position: absolute;
     border-radius: 50%;
 
     display: flex;
