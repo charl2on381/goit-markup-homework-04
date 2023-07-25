@@ -71,7 +71,7 @@ body {
     text-decoration: none;
 }
 
-portfolio-item a.link {
+.portfolio-item a.link {
     display: block;
 }
 
@@ -260,19 +260,16 @@ portfolio-item a.link {
 .hero-section {
     padding: 188px 0;
 
-    background: url('../images/peopleoffice.jpg');
-        background-color: rgb(46, 47, 66, 0.7);
-    
-        background-blend-mode: darken;
-        /* You must set a specified height */
+    background: linear-gradient(
+        to right,
+        rgb(46, 47, 66, 0.7),
+        rgb(46, 47, 66, 0.7)), url('../images/peopleoffice.jpg');
+       
         background-position: center;
-        /* Center the image */
         background-repeat: no-repeat;
-        /* Do not repeat the image */
         background-size: cover;
-        /* Resize the background image to cover the entire container */
 
-    /* background: var(--hero-background-color); */
+
 }
 
 .hero-title {
