@@ -746,9 +746,7 @@ a.link {
 }
 
 .company-social-icon {
-    position: absolute;
-        left: 10px;
-        top: 10px;
+
     fill: currentColor;
 
 }
